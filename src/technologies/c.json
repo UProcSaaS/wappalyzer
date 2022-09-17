@@ -562,7 +562,14 @@
       "[class*='shopping-bag']",
       "[class*='shopping-cart']",
       "[class*='checkout']",
-      "[class*='winkelwagen']"
+      "[class*='winkelwagen']",
+      "a[href*='/carrito']",
+      "a[href*='/shop/carrito']",
+      "a[href*='/cesta']",
+      "a[href*='/compra']",
+      "a[href*='/reservar']",
+      "a[href*='/contratar']",
+      "a[href*='/pay.do']"
     ],
     "icon": "Cart-generic.svg",
     "js": {
