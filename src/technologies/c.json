@@ -3629,6 +3629,19 @@
     "scriptSrc": "cdnjs\\.cloudflare\\.com",
     "website": "https://cdnjs.com"
   },
+  "Cetelem": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "Cetelem is a consumer credit company that provides instant financing service for online purchases. It combines an overtime payment method integrated at the ecommerce checkout with marketing tools to enable ecommerce to use financing as a promotional lever to boost sales.",
+    "icon": "Cetelem.svg",
+    "dom": "script[src*='cetelem']",
+    "pricing": [
+      "payg"
+    ],
+    "website": "https://cetelem.es"
+  },
   "cgit": {
     "cats": [
       19

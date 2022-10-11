@@ -583,7 +583,8 @@
     "icon": "Klarna.svg",
     "js": {
       "KlarnaOnsiteService": "",
-      "_klarnaCheckout": ""
+      "_klarnaCheckout": "",
+      "window.KlarnaThemeGlobals": ""
     },
     "pricing": [
       "payg",
@@ -591,7 +592,7 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.klarnaservices\\.com/lib\\.js",
+    "scriptSrc": "klarnaservices.com/lib.js",
     "website": "https://www.klarna.com/international/"
   },
   "Klaro": {

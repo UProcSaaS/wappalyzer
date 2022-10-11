@@ -3137,8 +3137,8 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "cdn\\.aplazame\\.com/aplazame\\.js",
-      "aplazame\\.com/static/aplazame\\.js"
+      "cdn.aplazame.com/aplazame.js",
+      "aplazame.com/static/aplazame.js"
     ],
     "website": "https://aplazame.com"
   },
