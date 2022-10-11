@@ -632,6 +632,19 @@
     "icon": "Payfast.svg",
     "website": "https://www.payfast.co.za/"
   },
+  "PayIn7": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "PayIn7 is a payments processing service.",
+    "js": {
+      "payin7texts": "",
+      "idProductPayin7": ""
+    },
+    "icon": "Payin7.svg",
+    "website": "https://www.payin7.com/"
+  },
   "PayJustNow": {
     "cats": [
       91
