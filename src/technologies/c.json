@@ -564,19 +564,39 @@
       "[class*='checkout']",
       "[class*='winkelwagen']",
 
+      "a[href*='OrderCalculate']",
+      "a[href*='pedido']",
       "a[href*='carrito']",
+      "a[href*='Carrito']",
       "form[action*='carrito']",
       "a[href*='cesta']",
       "a[href*='compra']",
       "a[href*='reservar']",
       "a[href*='contratar']",
       "a[href*='pay.do']",
-      "form[action*='api/cart/items']"
+      "a[href*='shop.']",
+      "a[href*='purchase']",
+
+      "form[action*='api/cart/items']",
+      "[class*='cart-container']",
+      "[class*='cart-block--summary']",
+      "[class*='icon-cart-header']",
+      "img[src*='cart.svg']",
+
+      "span[id*='cart-total']",
+      "div[id*='Carrito']",
+      "[class*='desplegar_minicesta']",
+      "[class*='user-menu__list-item--bag']",
+      "[class*='m-minicart']"
+
 
     ],
     "icon": "Cart-generic.svg",
     "js": {
       "wc_add_to_cart_params": "",
+      "wc_add_to_cart_variation_params": "",
+      "prestashop": "",
+      "storeSelectorDefaultData": "",
 
       "google_tag_params.ecomm_pagetype": ""
     },
