@@ -563,16 +563,21 @@
       "[class*='shopping-cart']",
       "[class*='checkout']",
       "[class*='winkelwagen']",
-      "a[href*='/carrito']",
-      "a[href*='/shop/carrito']",
-      "a[href*='/cesta']",
-      "a[href*='/compra']",
-      "a[href*='/reservar']",
-      "a[href*='/contratar']",
-      "a[href*='/pay.do']"
+
+      "a[href*='carrito']",
+      "form[action*='carrito']",
+      "a[href*='cesta']",
+      "a[href*='compra']",
+      "a[href*='reservar']",
+      "a[href*='contratar']",
+      "a[href*='pay.do']",
+      "form[action*='api/cart/items']"
+
     ],
     "icon": "Cart-generic.svg",
     "js": {
+      "wc_add_to_cart_params": "",
+
       "google_tag_params.ecomm_pagetype": ""
     },
     "scriptSrc": [
