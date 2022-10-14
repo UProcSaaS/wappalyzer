@@ -576,6 +576,7 @@
       "a[href*='pay.do']",
       "a[href*='shop.']",
       "a[href*='purchase']",
+      "a[href*='tienda']",
 
       "form[action*='api/cart/items']",
       "[class*='cart-container']",
@@ -3237,6 +3238,23 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/creative-mail-by-constant-contact/",
     "website": "https://www.creativemail.com"
+  },
+  "Crediya": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "Crediya is a consumer credit company that provides instant financing service for online purchases.",
+    "icon": "Crediya.svg",
+    "dom": [
+      "*["
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn.aplazame.com/aplazame.js",
+      "aplazame.com/static/aplazame.js"
+    ],
+    "website": "https://www.crediya.es/"
   },
   "Crisp Live Chat": {
     "cats": [

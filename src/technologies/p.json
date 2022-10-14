@@ -683,7 +683,7 @@
       "button": {
         "text": "PayPal"
       },
-      "iframe[src*='paypal.com'], img[src*='paypal.com'], img[src*='paypalobjects.com'], [aria-labelledby='pi-paypal'], [data-paypal-v4='true'], img[alt*='PayPal' i]": {
+      "iframe[src*='paypal.com'], img[src*='paypal.com'], img[src*='paypalobjects.com'], [aria-labelledby='pi-paypal'], [data-paypal-v4='true'], img[alt*='PayPal' i], link[href*='paypal.com'], script[text*=paypal]": {
         "exists": ""
       }
     },
@@ -708,7 +708,10 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "paypalobjects\\.com",
+    "scriptSrc": [
+      "paypalobjects\\.com",
+      "paypal\\.com/sdk/"
+    ],
     "website": "https://paypal.com",
     "xhr": "\\.paypal\\.com"
   },
@@ -917,6 +920,22 @@
     "saas": true,
     "scriptSrc": "\\.pepperjam\\.com/",
     "website": "https://www.pepperjam.com"
+  },
+  "Pepper Money": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "Pepper Money is a consumer credit company that provides instant financing service for online purchases. We offer a wide selection of mortgages for people that have bad credit, defaults or CCJ&#039;s. With our manual underwriting, we look past a bad credit score.",
+    "icon": "PepperMoney.svg",
+    "js": {
+      "pepper_api_url": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://pepper.money"
   },
   "Percona": {
     "cats": [
