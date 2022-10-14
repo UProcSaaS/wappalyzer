@@ -53,3 +53,10 @@ Wappalyzer.analyze({
   console.log(results)
 })
 ```
+
+### How to launch multiple queries
+
+Execute bulk domains with a delay of 40 seconds
+```
+for DOMAIN in `cat domains.lst`; do echo Querying $DOMAIN. Saving to tests/output_${DOMAIN}.json && echo "./cli.js https://${DOMAIN} -D 1 -t 40000 | python -m json.tool > tests/output_${DOMAIN}.json" && ./cli.js https://${DOMAIN} -D 1 -t 40000 | python -m json.tool > tests/output_${DOMAIN}.json; done
+```
